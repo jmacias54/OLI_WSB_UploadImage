@@ -20,6 +20,9 @@
 	<bean id="uploadImageBO" class="mx.com.amx.unotv.wsb.oli.uploadimg.bo.UploadImageBO"></bean>
 	<bean id="cropImageBO" class="mx.com.amx.unotv.wsb.oli.uploadimg.bo.CropImageBO"></bean>
     <bean id="callWSBO"    class="mx.com.amx.unotv.wsb.oli.uploadimg.bo.CallWSBO"></bean>
+    <bean id="uploadGaleriaBO"    class="mx.com.amx.unotv.wsb.oli.uploadimg.bo.UploadGaleriaBO"></bean>
+    
+    
 
 	<bean
 		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">

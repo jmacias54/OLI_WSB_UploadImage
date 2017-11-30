@@ -6,8 +6,15 @@ package mx.com.amx.unotv.wsb.oli.uploadimg.controller.exception;
  */
 public class ErrorResponse {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int errorCode;
 	private String message;
+	
+	
+	
 	public int getErrorCode() {
 		return errorCode;
 	}
