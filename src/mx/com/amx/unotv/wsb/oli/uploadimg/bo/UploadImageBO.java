@@ -116,14 +116,14 @@ public class UploadImageBO {
 								String[] arrayConfImgPrincipal = parametrosDTO.getConfiguracionImgPrincipal()
 										.split("\\|");
 								
-								String[] arrayConfImgResize = parametrosDTO.getConfiguracionImgCuadrada()
-										.split("\\|");
+								// String[] arrayConfImgResize = parametrosDTO.getConfiguracionImgCuadrada()
+								// 		.split("\\|");
 
 								// Nombre de la imagen principal
 								nameImgPrincipal = secuencia + arrayConfImgPrincipal[2] + extensionFile;
 								
 								// Nombre de la imagen resize
-								nameImgRezise = secuencia + arrayConfImgResize[2] + extensionFile;
+								// nameImgRezise = secuencia + arrayConfImgResize[2] + extensionFile;
 
 								try {
 
@@ -139,6 +139,7 @@ public class UploadImageBO {
 									LOG.info("Genera imagen principal: OK");
 
 									
+									/*
 									// Llenamos DTO
 									ProcesaImagenDTO procesaImagenResize = new ProcesaImagenDTO();
 									procesaImagenResize.setDirectorio(parametrosDTO.getPathLocalImagenes());
@@ -150,7 +151,7 @@ public class UploadImageBO {
 									procesaImagen(bImageFromConvert, procesaImagenResize);
 									LOG.info("Genera imagen Rezise : OK");
 									
-								
+								*/
 									
 						
 
